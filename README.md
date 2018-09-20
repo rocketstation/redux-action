@@ -17,7 +17,7 @@ const store = createStore(reducer)
 ```
 
 ```javascript
-import { actionCreator } from 'redux-action'
+import { actionCreator as change } from 'redux-action'
 
 dispatch(change((s) => s))
 ```
