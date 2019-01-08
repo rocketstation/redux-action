@@ -11,15 +11,15 @@ npm i @rocketstation/redux-action
 ## Usage
 
 ```javascript
-import { reducer } from 'redux-action'
+import { createReducer } from 'redux-action'
 
-const store = createStore(reducer)
+createStore(createReducer({}))
 ```
 
 ```javascript
-import { actionCreator as change } from 'redux-action'
+import { changeState } from 'redux-action'
 
-dispatch(change((s) => s))
+dispatch(changeState((s) => s))
 ```
 
 ## Motivation
